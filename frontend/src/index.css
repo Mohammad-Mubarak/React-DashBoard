@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.nav-ul{
+  list-style: none;
+  width: 100vw;
+  background-color: deeppink;
+  height: 1.5rem;
+margin: 0;
+
+}
+
+.nav-ul  li{
+  display: inline-block;
+  padding-left: 3rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.anc{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 500;
+}
+
+.anc:hover{
+  color:rgb(17, 17, 17);
+}
+
+.nav-clr{
+  width: 100vw;
+  background-color: deeppink;
+  height: 2.5rem;
+  line-height: 2.5rem;
+ 
+  
+
+}
+
+.logo{
+  width: 40px;
+  float: left;
+  margin-left: 5rem;
+}
+
+
+
+.right li a{
+  margin-left: 3rem;
+  text-align: right;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+
+.foot{
+  position: absolute;
+  line-height: 5;
+  bottom: 0;
+  width: 100vw;
+  height: 5rem;
+  background: deeppink;
+}
+
+
+
+
+.product-data{
+
+  margin: 25px;
+  margin-bottom:-10px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid deeppink;
+  
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mb{
+  margin-bottom: 5rem;
+  margin: 40px;
+}
+
+
+.error-btn{
+color: red;
+margin-top: 13px;
+margin-left: -11rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

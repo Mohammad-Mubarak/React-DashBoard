@@ -1,0 +1,31 @@
+.btn-1{
+    width: 200px;
+    height: 40px;
+    border: 1px solid deeppink;
+    border-radius: 10px;
+    background: white;
+    color: deeppink;
+    font-weight:300;
+}
+
+.cen{
+    align-items:center;
+    margin-top: 10rem;
+}
+
+
+.sign{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .inputBox{
+    
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid deeppink;
+    
+  }
